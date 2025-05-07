@@ -15,13 +15,15 @@
       <h2>Your Cart</h2>
       <img
         src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
-        alt="rubics cube a puzzle."
+        alt="rubix cube different colored puzzle"
       />
+      <p>Rubix Cube</p>
+      <p>$3.99</p>
     </section>
     <section>
       <h2>Payment Information</h2>
       <form>
-        <label for="card-name">Card Name</label>
+        <label for="card-name">Cardholder Name</label>
         <input
           type="text"
           id="card-name"
@@ -29,6 +31,7 @@
           required
           aria-required="true"
         />
+        <br />
         <label for="card-number">Card Number</label>
         <input
           type="number"
@@ -37,6 +40,9 @@
           required
           aria-required="true"
         />
+        <br />
+        <label for="expiration-date">Expiration Date</label>
+        <input type="date" id="expiration-date" name="expiration-date" />
       </form>
     </section>
   </body>
