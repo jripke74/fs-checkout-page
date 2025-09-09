@@ -1,49 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta property="og:title" content="store.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="https://www.store.com" />
-    <title>Checkout Page</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <h1>Checkout</h1>
-    <section>
-      <h2>Your Cart</h2>
-      <img
-        src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
-        alt="rubix cube different colored puzzle"
-      />
-      <p>Rubix Cube</p>
-      <p>$3.99</p>
-    </section>
-    <section>
-      <h2>Payment Information</h2>
-      <form>
-        <label for="card-name">Cardholder Name</label>
-        <input
-          type="text"
-          id="card-name"
-          name="card-name"
-          required
-          aria-required="true"
-        />
-        <br />
-        <label for="card-number">Card Number</label>
-        <input
-          type="number"
-          id="card-number"
-          name="card-number"
-          required
-          aria-required="true"
-        />
-        <br />
-        <label for="expiration-date">Expiration Date</label>
-        <input type="date" id="expiration-date" name="expiration-date" />
-      </form>
-    </section>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="check out page">
+  <meta property="og:title" content="store.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="https://www.store.com" />
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <h1>Checkout</h1>
+  <section>
+    <h2>Your Cart</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="rubix cube different colored puzzle" />
+    <p>Rubix Cube</p>
+    <p>$3.99</p>
+  </section>
+  <section>
+    <h2>Payment Information</h2>
+    <form>
+      <label for="card-name">Cardholder Name</label>
+      <input type="text" id="card-name" name="card-name" required aria-required="true" />
+      <br />
+      <label for="card-number">Card Number</label>
+      <input type="number" id="card-number" name="card-number" required aria-required="true" />
+      <br />
+      <label for="expiration-date">Expiration Date</label>
+      <input type="date" id="expiration-date" name="expiration-date" />
+    </form>
+  </section>
+</body>
+
 </html>
